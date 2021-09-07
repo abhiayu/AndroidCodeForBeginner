@@ -1,15 +1,19 @@
-package com.example.androidcodeforbeginner;
+package com.example.androidcodeforbeginner.SlideImage;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.widget.Toolbar;
 
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends Activity {
+public class SlideViewImage extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.startactivity);
+
+
+
 
     }
+
 }
